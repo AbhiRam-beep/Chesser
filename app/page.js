@@ -225,7 +225,7 @@ const MainGrid = ({ gridSize = 45 }) => {
         })
       }
     </div><div className="absolute right-0 w-[25vw] z-10 text-2xl font-extrabold items-center h-[100vh]">
-      <div className="mt-20 text-7xl font-extrabold text-white text-center mb-20"><h1 className="">Chesser</h1><a href="https://github.com"><img className="h-10 w-10 mt-10 filter invert ml-[80%]" src="/github.png" /></a></div>
+      <div className="mt-20 text-7xl font-extrabold text-white text-center mb-20"><h1 className="">Chesser</h1><a href="https://github.com/AbhiRam-beep/Chesser"><img className="h-10 w-10 mt-10 filter invert ml-[80%]" src="/github.png" /></a></div>
       <div className="gap-20 flex my-auto justify-center flex-col items-center">
         <button className="w-fit p-3 rounded-md text-white bg-gray-700 border flex flex-row items-center hover:scale-105 border-white" onClick={findRoute}>Begin!<img className="ml-4 h-[2rem]" src="/play.png" alt="play button" /></button>
         <button className="w-fit p-3 rounded-md text-white bg-gray-700 border flex flex-row items-center hover:scale-105 border-white" onClick={() => setNeedsHelp(true)}>Help/About<img className="ml-4 filter invert h-[2rem]" src="/help.png" alt="play button" /></button>
